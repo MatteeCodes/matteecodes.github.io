@@ -19,7 +19,7 @@ function keyPressed() {
 		circle.moveside();
   }
 }
-}
+
 function draw () {
   background(47, 163, 34);
   circle.show();
