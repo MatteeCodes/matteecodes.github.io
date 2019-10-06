@@ -1,7 +1,7 @@
 class Cube {
   constructor() {
     this.r = 70;
-    this.x = (1000);
+    this.x = 1000;
     this.y = height - this.r;
     this.vy = 0;
     this.gravity = 2;
