@@ -26,4 +26,8 @@ class Circle {
   movesidel() {
       this.x = this.x += -50
   }
+  colision() {
+  //  if (Circle === Cube){
+  // console.log("Hit IT");
+  }
  }

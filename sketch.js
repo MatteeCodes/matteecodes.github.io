@@ -1,6 +1,7 @@
 let circle;
 let cImg;
 let cube
+var = d
 function preload() {
   cImg = loadImage('dorito.png');
 }
@@ -32,4 +33,11 @@ function draw () {
   cube.jump();
   cube.move();
   cube.locatex();
+ var d = dist(cube.x,cube.y,circle.x,circle.y);
+
+
+
+ if (d < circle.r + cube.r){
+   cube.changeColor();
+ }
 }
