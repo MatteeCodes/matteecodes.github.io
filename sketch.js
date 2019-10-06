@@ -15,11 +15,11 @@ function setup() {
 function keyPressed() {
   if (key == ' ') {
     circle.jump();
-
+  }
 if (keyCode === RIGHT_ARROW) {
   circle.movesider();
   }
-if (keyCode === _ARROW) {
+if (keyCode ===LEFT_ARROW) {
   circle.movesidel();
   }
 }
