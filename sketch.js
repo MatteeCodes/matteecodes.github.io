@@ -15,9 +15,9 @@ function setup() {
 function keyPressed() {
   if (key == ' ') {
     circle.jump();
-  }
-  if (keyCode == RIGHT_ARROW) {
+  }else if (keyCode == RIGHT_ARROW) {
 		circle.moveside();
+  }
 }
 
 function draw () {
