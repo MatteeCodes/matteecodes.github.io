@@ -6,16 +6,17 @@ class Cube {
     this.vy = 0;
     this.gravity = 2;
   }
+
   jump() {
     this.vy = -10;
   }
+
   move() {
     this.y += this.vy;
-    this.x += -;
     this.vy += this.gravity;
     this.y = constrain(this.y , 0, height - this.r);
-    this.x = constrain(this.x , 0, 1920);
   }
+
   show() {
     rect(this.x, this.y, this.r, this.r);
 
