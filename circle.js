@@ -20,7 +20,10 @@ class Circle {
  show() {
    image(cImg,this.x, this.y, this.r, this.r);
   }
-  moveside() {
+  movesider() {
     this.x = this.x += 50
+  }
+  movesidel() {
+      this.x = this.x += -50
   }
  }
