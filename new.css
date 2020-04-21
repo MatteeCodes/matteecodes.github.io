@@ -29,7 +29,7 @@ body {
 	text-decoration: none;
 	position: absolute;
 	top: 450px;
-	left: 885px;
+	left: 46.7%;
 	border: 1px solid black;
 	padding: 5px;
 	padding-left: 50px;
@@ -56,5 +56,5 @@ a {
 
 .cert {
 	position: absolute;
-	bottom: 40px;
+	top: 99%;
 }
