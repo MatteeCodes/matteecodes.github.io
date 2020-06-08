@@ -30,13 +30,14 @@ body {
 	position: absolute;
 	top: 450px;
 	left: 46.7%;
-	border: 1px solid black;
+	border: 1px solid white;
 	padding: 5px;
 	padding-left: 50px;
 	padding-right: 50px;
 	background-color: #f4f4f4;
 	color: black;
 	font: black;
+	border-radius: 20px;
 }
 
 a {
