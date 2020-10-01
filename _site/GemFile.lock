@@ -30,7 +30,7 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.6.1)
       jekyll (>= 3.3, < 5.0)
-    jekyll-theme-leap-day (0.1.1)
+    jekyll-theme-modernist (0.1.1)
       jekyll (~> 3.5)
       jekyll-seo-tag (~> 2.0)
     jekyll-watch (2.2.1)
@@ -64,7 +64,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll
-  jekyll-theme-leap-day
+  jekyll-theme-modernist
   kramdown-parser-gfm
 
 BUNDLED WITH
